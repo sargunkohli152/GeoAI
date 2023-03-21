@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Mulish:ital,wght@0,200;0,500;1,200;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="relative -z-50 h-[100vh]">
+        <img src="./assets/BG (2).png" alt="" class="absolute -z-50">
+        <!-- <div class="h-[50vh] w-[50vh] bg-[#377adf] absolute top-0 left-0 right-0 bottom-0 rounded-full mx-[37rem] mt-60
+        blur-3xl mix-blend-screen opacity-60"></div> -->
+
+        <!--container-->
+        <div class= "max-w-[1200px] mx-auto py-16 relative h-[100vh]">
+
+            <!--navbar-->
+            <nav class="max-w-[1300px] mx-auto flex justify-between items-center fixed z-50">
+    
+                <!--left-->
+                <div class="flex justify-between items-center gap-4">
+                    <img src="./assets/Polygon 1.png">
+                    <p class="text-white text-2xl font-para font-bold">Geo<span class="text-[#217aff]">AI</span></p>
+                </div>
+    
+                <!--right-->
+                <div class="flex justify-between items-center gap-24 relative font-para text-xl font-bold ml-96">
+                    <ul class="flex justify-between gap-14 leading-3 hover:underline decoration-[#377adf]">
+                        <li class= "text-white hover:underline decoration-[#377adf]">
+                            <a href="#intro" class="cursor-pointer">GeoAI</a>
+                        </li>
+                        <li class= "text-white hover:underline decoration-[#377adf]">
+                            <a href="#helpy" class="cursor-pointer">Help We Help</a>
+                        </li>
+                        <li class= "text-white hover:underline decoration-[#377adf]">
+                            <a href="#target" class="cursor-pointer">Target Disasters</a>
+                        </li>
+                    </ul>
+        
+                    <button class="flex justify-center items-center">
+                        <img src="./assets/Rectangle 13.png" alt="" class="absolute -z-40 -right-10 h-15">
+                        <p class="text-white align-middle">Get Started</p>
+                    </button>
+                </div>
+    
+            </nav>
+
+            <!-- Home section -->
+            <div class="text-white relative mt-52">
+                <!--left text-->
+                <div>
+                    <h1 class="font-heading text-7xl font-bold"> CREATING A  <br>                 
+                        <span class="role text-[#377adf]"></span>
+                        <br>
+                        <br>
+                    </h1>
+                    <div class="flex">
+
+                        <p class="font-para text-xl">Transforming Disaster Preparedness 
+                            with AI-Enabled Prediction Technology: <br>
+                            A smarter, safer future awaits. <br>
+                            From data to action, our AI predicts future disasters, saves lives                          
+                            and millions of dollars!
+                        </p>
+
+                        <!--hologram-->
+                        <div class="">
+                            <img src="./assets/Group 10.png" alt="" class="absolute -top-10 -right-10 h-full scale-150">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+        <!--natural calamities-->
+        <div class="bg-[url(./assets/BG.png)] h-[100vh] relative z-10 flex justify-center items-center">
+            <img src="./assets/disaster.jpg" alt="" class="absolute opacity-50 h-[100%] w-full object-cover -z-30 hmm">
+            <div class="max-w-[1200px] mx-auto py-16 text-white ">
+                <h1 class="font-heading text-5xl text-center font-bold leading-relaxed">Natural Calamaties</h1>
+                <p class="font-para text-xl text-center">
+                    Natural calamities, such as hurricanes, earthquakes, floods, 
+                    wildfires, and tsunamis, have caused immense destruction and 
+                    loss of life in recent years. With climate change exacerbating weather patterns, 
+                    these disasters are becoming more frequent and severe. They disrupt communities, 
+                    economies, and infrastructures, leading to long-term social and environmental impacts.
+                </p>
+            </div>
+
+        </div>
+
+        <!--statistics-->
+        <div class="bg-pic1">
+
+            <div class="flex gap-5 max-w-[1080px] mx-auto relative h-[100vh] items-center">
+
+                <div class="flex flex-col justify-center">
+                    <div>
+                        <p class="num" data-val="137.7">000</p>
+                        <p class="text">Billion</p>
+                    </div>
+                    
+                    <p class="para font-para">Dollar damage was caused by disasters in 2021 alone. </p>
+                </div>
+
+                <div class="w-[500px] h-[3px] bg-[#1B5BFF] rotate-90 opacity-70"></div>
+
+                <div class="flex flex-col justify-center">
+                    <div>
+                        <p class="num" data-val="14">000</p>
+                        <p class="text">Million</p>
+                    </div>
+                    
+                    <p class="para font-para">People are being made homeless on average each year</p>
+                </div>
+
+                <div class="w-[500px] h-[3px] bg-[#1B5BFF] rotate-90 opacity-70"></div>
+
+                <div class="flex flex-col justify-center">
+                    <div>
+                        <p class="num" data-val="45">000</p>
+                        <p class="text">Thousand</p>
+                    </div>
+                    
+                    <p class="para font-para">People globally die from natural disasters each year</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--introduction-->
+        <div class="bg-pic1 h-[100%] py-80 relative flex justify-around" id="intro">
+
+            <div class="max-w-[1080px] relative w-[50%] mx-52 leading-relaxed">
+
+                <div>
+                    <h1 class="text-white font-heading text-5xl font-bold py-5">Introducing GeoAI</h1>
+                </div>
+
+                <div>
+                    <p class="text-white font-para text-xl leading-8">
+                        Our AI-powered disaster prediction technology uses historical data to 
+                        analyze patterns and detect potential calamities in a specific area. 
+                        By providing advanced warning, it enables communities to take preventive 
+                        measures and minimize the impact of disasters. <br> This can include evacuating 
+                        people to safer locations, securing infrastructure, and preparing emergency 
+                        resources. By helping to mitigate risks associated with natural calamities, 
+                        our technology can contribute to building more resilient communities and 
+                        ultimately making the world a safer, better place for everyone.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <img src="./assets/spain.gif" alt="" class="h-full relative mr-72 w-[300px] scale-150 mt-32">
+            </div>
+
+            <img src="./assets/Ellipse 5.png" alt="" class="absolute -left-96 -top-20 z-20 pr-20">
+
+        </div>
+
+        <!--help explain-->
+        <div class="bg-pic1 h-[100%] relative flex justify-center items-center" id="helpy">
+
+            <div class="flex flex-col">
+
+                <div class="relative">
+                    <div class="">
+                        <img src="./assets/Rectangle 14.png" alt="" class="mx-auto my-auto">
+                        <div class="flex justify-center items-center">
+                            <img src="./assets/Rectangle 17.png" alt="" class="mx-auto absolute -top-9 right-0 left-0 z-0">
+                            <p class="text-white font-para text-center relative text-2xl font-bold">How Our AI Helps</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br> <br><br> <br><br>  
+    
+                <div class="grid grid-cols-3 grid-rows-1 gap-10 mx-auto">
+
+                    <div class="text-white font-para flex flex-col justify-center items-center gap-2 my-5 yus">
+                        <h1 class="font-heading text-2xl font-bold">PREVENT LIFE LOSSES</h1>
+                        <p class="font-para text-white text-md text-center">
+                            Preparedness, safety measures and timely interventions.
+                        </p>
+                        <br>
+
+                        <a href="#" class="font-para text-[#217aff] font-bold">GET STARTED</a>
+                    </div>
+                    
+                    <div class="text-white font-para flex flex-col justify-center items-center gap-2 my-5">
+                        <h1 class="font-heading text-2xl font-bold">DETECT CLIMATE CHANGES</h1>
+                        <p class="font-para text-white text-md text-center">
+                            Preparedness, safety measures and timely interventions can prevent life losses.
+                        </p>
+                        <br>
+                        <a href="#" class="font-para text-[#217aff] font-bold">GET STARTED</a>
+                    </div>
+                    
+                    <div class="text-white font-para flex flex-col justify-center items-center gap-2 my-5">
+                        <h1 class="font-heading text-2xl font-bold">Prevents Life Losses</h1>
+                        <p class="font-para text-white text-md text-center">
+                            Effective risk management and diversification strategies prevent economic losses.
+
+                        </p>
+                        <br>
+                        <a href="#" class="font-para text-[#217aff] font-bold">GET STARTED</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--target disasters-->
+        <div id="target" class="bg-pic1 h-[100%] relative flex justify-center items-center">
+
+            <div class="flex flex-col">
+
+                <div class="relative">
+                    <div class="">
+                        <img src="./assets/Rectangle 14.png" alt="" class="mx-auto my-auto">
+                        <div class="flex justify-center items-center">
+                            <img src="./assets/Rectangle 17.png" alt="" class="mx-auto absolute -top-9 right-0 left-0 z-0">
+                            <p class="text-white font-para text-center relative text-2xl font-bold">Our Target Disasters</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br> <br><br> <br><br>  
+    
+                <div class="grid grid-cols-2 grid-rows-1 gap-10 mx-auto">
+
+                    <div class="text-white font-para flex flex-col justify-center items-center gap-2 my-5">
+                        <img src="./assets/Group 4.png" alt="" class="w-[361px] h-[433px]">
+                    </div>
+                    
+                    <div class="text-white font-para flex flex-col justify-center items-center gap-2 my-5">
+                        <img src="./assets/Group 5.png" alt="" class="w-[361px] h-[433px]">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--last page-->
+        <div class="relative">
+            <img src="./assets/BG.png" alt="" class="absolute -z-50">
+            <img src="./assets/Group 10.png" alt="" class="absolute -scale-50 -top-80 opacity-40">
+            <div class="relative">
+                <h1 class="font-heading text-7xl font-bold text-white relative z-50 top-96 text-center"> CREATING A 
+                    <span class="text-[#377adf]">SAFER</span>
+                    WORLD
+                </h1>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "SAFER WORLD",
+                "BETTER WORLD"
+            ],
+            loop: true,
+            typeSpeed: 30,
+            backSpeed: 25,
+            backDelay: 1000,
+        });
+    </script>
+
+    <script>
+        let valueDisplays = document.querySelectorAll(".num");
+        let interval = 5000;
+
+        valueDisplays.forEach((valueDisplay)=>{
+        let startvalue = 0;
+        let endvalue = parseInt(valueDisplay.getAttribute("data-val"));
+        let duration = Math.floor(interval/endvalue);
+        let counter = setInterval(function() {
+            startvalue += 1;
+            valueDisplay.textContent = startvalue;
+            if(startvalue == endvalue){
+                clearInterval(counter);
+            }
+        }, duration)
+        })
+    </script>
+</body>
+</html>
